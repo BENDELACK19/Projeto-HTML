@@ -1,68 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Registro - GameFinder</title>
-
-    <!-- Incluindo Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
-    <!-- Incluindo o CSS personalizado -->
-    <link rel="stylesheet" href="estilos/registrostyle.css" />
+    <link rel="stylesheet" href="estilos/registrostyle.css"> <!-- Link para o CSS -->
+    <script src="jvs/registrojvs.js" defer></script> <!-- Link para o JavaScript -->
+    <title>Cadastro GameFinder</title>
 </head>
-
-<body class="d-flex align-items-center" style="min-height: 100vh;">
+<body>
     <div class="container">
-        <div class="row justify-content-center" style="margin:20px;">
-            <div class="col-lg-6 col-md-8 login-box">
-
-                <!-- Título do Formulário -->
-                <div class="col-lg-12 login-title text-center mb-4">
-                    Registro - GameFinder
+        <div class="form-wrapper">
+            <h2>Cadastre-se no GameFinder</h2>
+            <form id="registrationForm" onsubmit="return handleSubmit(event);">
+                <div class="input-group">
+                    <input type="text" placeholder="Nome" class="input-field" required />
+                    <input type="text" placeholder="Sobrenome" class="input-field" required />
                 </div>
-
-                <!-- Formulário de Registro -->
-                <div class="col-lg-12 login-form">
-                    <form>
-
-                        <!-- Campo de Username -->
-                        <div class="form-group mb-3">
-                            <label class="form-control-label">Usuário:</label>
-                            <input type="text" class="form-control" name="Usuário" autocomplete="off" required>
-                        </div>
-
-                        <!-- Campo de Email -->
-                        <div class="form-group mb-3">
-                            <label class="form-control-label">Email:</label>
-                            <input type="email" class="form-control" name="email" autocomplete="off" required>
-                        </div>
-
-                        <!-- Campo de Senha -->
-                        <div class="form-group mb-4">
-                            <label class="form-control-label">Senha:</label>
-                            <input type="password" class="form-control" name="password" autocomplete="new-password" required>
-                        </div>
-
-                        <!-- Botão de Registro -->
-                        <div class="col-12 login-btm login-button justify-content-center d-flex">
-                            <button type="submit" class="btn btn-outline-primary">Registrar-se</button>
-                        </div>
-
-                    </form>
+                <div class="input-group">
+                    <input type="email" placeholder="E-mail" class="input-field" required />
+                    <input type="password" placeholder="Senha" class="input-field" required />
                 </div>
-
-            </div>
+                <button type="submit" class="submit-button">Cadastrar</button>
+                <p class="login-prompt">Já possui uma conta? <a href="login.html" class="login-link">Faça Login</a></p>
+            </form>
+            <div id="message" class="message"></div>
         </div>
     </div>
-
-    <!-- Incluindo Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-    </script>
-
 </body>
-
 </html>
