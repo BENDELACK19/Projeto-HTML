@@ -50,6 +50,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px; /* Espaçamento entre os grupos de inputs */
+    gap:15px;
 }
 
 /* Estilos dos inputs */
