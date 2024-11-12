@@ -9,14 +9,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    background-image: url('https://images.wallpapersden.com/image/download/galaxies-pixel-art_bGpsaW6UmZqaraWkpJRobWllrWdma2U.jpg');
-    background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a tela */
-    background-position: center; /* Centraliza a imagem */
-    background-attachment: fixed; /* Fixa a imagem ao rolar */
-    height: 100vh; /* Faz a altura do corpo ocupar toda a altura da janela */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
 }
 
 .table {
