@@ -25,11 +25,6 @@ $logado = $_SESSION['email']
         echo "<h1>Bem vindo $logado</h1>";
         ?>
         <nav class="navigation">
-            <!-- Logo -->
-            <div class="logo">
-
-            </div>
-
             <!-- Links de navegação -->
             <div class="links">
                 <ul>
@@ -37,7 +32,7 @@ $logado = $_SESSION['email']
                     <li><a href="integrantes.html">Sobre nós</a></li>
                     <li><a href="pag-games.html">Games</a></li>
                     <li><a class="login-btn" href="sair.php" aria-label="Login">Sair</a></li>
-
+                    <li><a href="editusers2.php">Editar</a></li>
                 </ul>
             </div>
 

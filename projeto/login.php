@@ -13,8 +13,9 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
-<body>
-    <section>
+<body>    
+<a href="home2.php"></a>
+<section>
         <form action="testeLogin.php" method="POST">
             <h1>Log in</h1>
             <div class="inputbox">
