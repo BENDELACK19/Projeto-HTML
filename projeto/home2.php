@@ -29,7 +29,7 @@ $logado = $_SESSION['email']
             <div class="links">
                 <ul>
 
-                    <li><a href="integrantes.html">Sobre nós</a></li>
+                    <li><a href="integrantes.html">Contatos</a></li>
                     <li><a href="pag-games.html">Games</a></li>
                     <li><a class="login-btn" href="sair.php" aria-label="Login">Sair</a></li>
                     <li><a href="editusers2.php">Lista</a></li>
