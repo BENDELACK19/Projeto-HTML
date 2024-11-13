@@ -44,7 +44,6 @@ $result = $conexao->query($sql);
       <th scope="col">Sobrenome</th>
       <th scope="col">Email</th>
       <th scope="col">Senha</th>
-      <th scope="col">...</th>
     </tr>
   </thead>
   <tbody>
@@ -56,8 +55,7 @@ while($user_data = mysqli_fetch_assoc($result))
   echo "<td>".$user_data['Nome']."</td>";
   echo "<td>".$user_data['Sobrenome']."</td>";
   echo "<td>".$user_data['email']."</td>";
-  echo "<td>".$user_data['senha']."</td>";
-  echo "<td>ações</td>";
+  echo "<td>".$user_data['senha']."</td>"
   echo "</tr>";
 }
 ?>
