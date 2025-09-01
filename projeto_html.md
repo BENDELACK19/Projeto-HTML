@@ -30,10 +30,6 @@ O projeto está organizado da seguinte forma:
 3. Coloque os arquivos na pasta `htdocs` ou equivalente.
 4. Acesse `http://localhost/Projeto-HTML` no seu navegador.
 
-## 📸 Demonstração
-
-![Screenshot do projeto](caminho/para/imagem.png)
-
 ## 🧠 O que Aprendi
 
 - Implementação de layout responsivo utilizando media queries.
